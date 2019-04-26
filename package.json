@@ -1,0 +1,28 @@
+{
+  "name": "csgo-gamestate",
+  "version": "1.0.0",
+  "description": "CSGO Gamestate integration in NodeJS",
+  "main": "lib/main.js",
+  "scripts": {
+    "dev": "nodemon lib/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmanuelVlad/node-csgo-gamestate.git"
+  },
+  "keywords": [
+    "csgo",
+    "gamestate",
+    "counter-strike"
+  ],
+  "author": "Emmanuel Vlad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmanuelVlad/node-csgo-gamestate/issues"
+  },
+  "homepage": "https://github.com/EmmanuelVlad/node-csgo-gamestate#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
