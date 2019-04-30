@@ -1,6 +1,6 @@
-const http 					= require("http");
-const EventEmitter 	= require("events").EventEmitter;
-const Player				= require("./Player");
+import http from "http";
+import { EventEmitter } from "events";
+import Player from "./Player";
 
 class CSGOClient extends EventEmitter {
 
@@ -50,4 +50,4 @@ class CSGOClient extends EventEmitter {
 
 }
 
-module.exports = CSGOClient;
+export default CSGOClient;

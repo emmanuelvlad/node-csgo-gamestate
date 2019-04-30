@@ -1,4 +1,4 @@
-const CSGOClient = require("../lib/main");
+const CSGOClient = require("../dist/csgo-gamestate.umd");
 
 const client = new CSGOClient().start();
 

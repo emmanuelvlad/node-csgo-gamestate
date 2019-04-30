@@ -1,5 +1,5 @@
-const EventEmitter 	= require("events").EventEmitter;
-const Weapon 				= require("./Weapon");
+import { EventEmitter } from "events";
+import Weapon from "./Weapon";
 
 class Player extends EventEmitter {
 	constructor() {
@@ -87,4 +87,4 @@ class Player extends EventEmitter {
 	// spawnEvent()
 }
 
-module.exports = Player;
+export default Player;

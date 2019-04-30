@@ -110,4 +110,4 @@ Weapon.list = {
 	"weapon_tablet": "Tablet",
 }
 
-module.exports = Weapon;
+export default Weapon;

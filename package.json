@@ -1,10 +1,16 @@
 {
   "name": "csgo-gamestate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "CSGO Gamestate integration in NodeJS",
-  "main": "lib/main.js",
+  "main": "dist/csgo-gamestate.umd.js",
+  "module": "dist/csgo-gamestate.esm.js",
+  "unpkg": "dist/csgo-gamestate.min.js",
   "scripts": {
-    "dev": "nodemon lib/main.js"
+    "dev": "nodemon examples/default.js",
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/csgo-gamestate.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/csgo-gamestate.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/csgo-gamestate.min.js"
   },
   "repository": {
     "type": "git",
@@ -12,8 +18,8 @@
   },
   "keywords": [
     "csgo",
-		"gamestate",
-		"integration",
+    "gamestate",
+    "integration",
     "counter-strike"
   ],
   "author": "Emmanuel Vlad",
@@ -23,6 +29,8 @@
   },
   "homepage": "https://github.com/EmmanuelVlad/node-csgo-gamestate#readme",
   "devDependencies": {
-    "nodemon": "^1.18.11"
+    "nodemon": "^1.18.11",
+    "rollup": "^1.10.1",
+    "rollup-plugin-commonjs": "^9.3.4"
   }
 }
