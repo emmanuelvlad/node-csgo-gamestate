@@ -1,8 +1,4 @@
-# README
-
-
-
-## CSGO-Gamestate
+# CSGO Gamestate
 
 A CS:GO Gamestate integration in NodeJS
 

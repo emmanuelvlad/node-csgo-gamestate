@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [CSGO Gamestate](README.md)
 
 ## Events
 
