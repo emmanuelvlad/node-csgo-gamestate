@@ -1,4 +1,12 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [README](README.md)
+
+## Events
+
+* [Player](events/player.md)
+
+## Types
+
+* [Weapon](types/weapon.md)
 
