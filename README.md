@@ -14,11 +14,4 @@ client.player.on("burning", health => {
 });
 ```
 
-### Events
-
-[Player](events/player.md)
-
-### Types
-
-[Weapon](types/weapon.md)
-
+### [Docs](docs/README.md)
