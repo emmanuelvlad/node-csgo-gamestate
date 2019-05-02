@@ -4,9 +4,9 @@
 
 ## Events
 
-* [Player](events/player.md)
+* [Player](docs-events/player.md)
 
 ## Types
 
-* [Weapon](types/weapon.md)
+* [Weapon](docs-types/weapon.md)
 
