@@ -28,6 +28,7 @@ When player dies
 When player is burning
 
 **Params**
+
 | | Name | Type |
 |-|-|-|
 | 1 | health | Number |
@@ -36,7 +37,9 @@ When player is burning
 
 #### weaponReload
 When player is reloading
+
 **Params**
+
 | | Name | Type |
 |-|-|-|
 | 1 | weapon | [Weapon](#Weapon) |
@@ -45,7 +48,9 @@ When player is reloading
 
 #### weaponSwitch
 On weapon switch
+
 **Params**
+
 | | Name | Type |
 |-|-|-|
 | 1 | weapon | [Weapon](#Weapon) |
@@ -54,7 +59,9 @@ On weapon switch
 
 #### weaponShoot
 On weapon shoot
+
 **Params**
+
 | | Name | Type |
 |-|-|-|
 | 1 | weapon | [Weapon](#Weapon) |
