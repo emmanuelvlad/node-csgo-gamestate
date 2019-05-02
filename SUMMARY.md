@@ -1,12 +1,13 @@
 # Table of contents
 
 * [CSGO Gamestate](README.md)
+* [test](test.md)
 
 ## Events
 
-* [Player](docs-events/player.md)
+* [Player](events/player.md)
 
 ## Types
 
-* [Weapon](docs-types/weapon.md)
+* [Weapon](types/weapon.md)
 
